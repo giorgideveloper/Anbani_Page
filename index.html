@@ -1,0 +1,1526 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./src/css/main.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&display=swap" rel="stylesheet">
+    <title>ანბანი</title>
+    <style>
+      body{
+    font-family: 'Roboto', sans-serif;
+}
+.visit_card .card {
+    width:100%;
+    border-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.068);
+}
+.visit_card .card img {
+    width:100%;
+    border-radius: 13px;
+    border-radius: 12px 12px 0px 0px;
+    cursor: pointer;
+   
+}
+.visit_card .card .card-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70px;
+    }
+.visit_card .card .card-body .card-title{
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+.visit_card .card .card-body .card-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 16px;
+    color: #8E8E8E;
+}
+
+.my-btn{
+    color: #FFDE03;
+    background: #FEFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border:none;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+     
+} 
+.my-btn:hover{
+    color: #FFDE03;
+    background: #8E8E8E;;
+}
+.btn_abs{
+    display:flex;
+    justify-content: flex-end;
+    width: 34px;
+    height: 32px;
+    margin-top: -1.5em;
+    text-align: center;
+}
+/* modal dialog */
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+ .btn-close {
+    position:absolute;
+  right:-30px;
+  top:0;
+  background-color:#fff;
+}
+.text-conten{
+  margin-top: -1.3em;
+}
+.text-content-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-bottom: 0.3em;
+
+}
+.text-conten-center{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #8E8E8E;
+    padding:0.2em 1.5em;
+    text-align: justify;
+    padding-bottom: 1.3em;
+}
+.text-conten-border{
+    border-top: 2px solid #FFDE03;
+    width:31.2%;
+    margin-left: 1.2em;
+}
+/* /modal dialog */
+
+@media (min-width: 992px) { 
+    .visit_card .card .card-body .card-text{
+        margin-top: -0.5em;
+        font-size: 11px;
+    }
+ }
+ @media (min-width: 768px) { 
+    .visit_card .card .card-body .card-text{
+        margin-top: -0.5em;
+        font-size: 8.5px;
+    }
+ }
+ @media (min-width: 1200px) { 
+    .visit_card .card .card-body .card-text{
+        margin-top: -0.2em;
+        font-size: 11px;
+    }
+ }
+ 
+    </style>
+  </head>
+  <body>
+   <div class="container mt-5">
+       <div class="row anbani_out">
+           <div class="col-md-4">
+               <div class="visit_card">
+                <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+                    <img src="https://gobatumi.com/file-manager/files/shares/anbani/a.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F607679403909349%2F&show_text=false&width=560&t=0" data-bs-target="#myModal" alt="...">
+                    <div class="card-body" >
+                        <br>
+                      <h5 class="card-title col-12">ანბანის კოშკი</h5>
+                      <p class="card-text col-md-8 col-lg-10"> #გაიცანიაჭარაანბანით #ანბანისკოშკი #ბათუმი</p>
+                      <div class="btn_abs col-md-4 col-lg-2"> 
+                      <a href="#"><button  class="btn btn-primary my-btn">ა</button></a>
+                    </div>
+                    </div>
+                  </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+            <div class="visit_card">
+                <div class="card" style="width: 100%; margin-bottom: 1em; margin-top:1em;">
+                    <img src="https://gobatumi.com/file-manager/files/shares/anbani/b.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F607679403909349%2F&show_text=false&width=560&t=0" data-bs-target="#myModalb" alt="...">
+                    <div class="card-body " >
+                        <br>
+                      <h5 class="card-title col-12">ბოტანიკური ბაღი</h5>
+                      <p class="card-text col-md-8 col-lg-10"> #გაიცანიაჭარაანბანით #ბათუმისბოტანიკურიბაღი </p>
+                      <div class="btn_abs col-md-4 col-lg-2"> 
+                      <a href="#"><button  class="btn btn-primary my-btn">ბ</button></a>
+                    </div>
+                    </div>
+                  </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+            <div class="visit_card">
+                <div class="card" style="width: 100%; margin-bottom: 1em; margin-top:1em;">
+                    <img src="https://gobatumi.com/file-manager/files/shares/anbani/g.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModalg" alt="...">
+                    <div class="card-body" >
+                        <br>
+                      <h5 class="card-title col-12">გონიოს ციხე</h5>
+                      <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #გონიოსციხე</p>
+                      <div class="btn_abs col-md-4 col-lg-2"> 
+                      <a href="#"><button  class="btn btn-primary my-btn">გ</button></a>
+                    </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+                <div class="visit_card">
+                 <div class="card" style="width: 100%; margin-bottom: 1em;">
+                     <img src="https://gobatumi.com/file-manager/files/shares/anbani/d.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModald" alt="...">
+                     <div class="card-body" >
+                        <br>
+                      <h5 class="card-title col-12">დანდალოს ხიდი</h5>
+                      <p class="card-text col-md-8 col-lg-10"> #გაიცანიაჭარაანბანით #დანდალოსხიდი #ქედა </p>
+                      <div class="btn_abs col-md-4 col-lg-2"> 
+                      <a href="#"><button  class="btn btn-primary my-btn">დ</button></a>
+                    </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+             <div class="visit_card">
+                 <div class="card" style="width: 100%; margin-bottom: 1em;">
+                     <img src="https://gobatumi.com/file-manager/files/shares/anbani/e.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModale" alt="...">
+                     <div class="card-body" >
+                        <br>
+                      <h5 class="card-title col-12">ევროპის მოედანი</h5>
+                      <p class="card-text col-md-8 col-lg-10"> #გაიცანიაჭარაანბანით #ევროპისმოედანი</p>
+                      <div class="btn_abs col-md-4 col-lg-2">  
+                      <a href="#"><button  class="btn btn-primary my-btn">ე</button></a>
+                    </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+             <div class="visit_card">
+                 <div class="card" style="width: 100%; margin-bottom: 1em;">
+                     <img src="https://gobatumi.com/file-manager/files/shares/anbani/v.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModalv" alt="...">
+                     <div class="card-body" >
+                        <br>
+                      <h5 class="card-title col-12">ველობილიკი</h5>
+                      <p class="card-text col-md-8 col-lg-10"> #გაიცანიაჭარაანბანით #ველობილიკი</p>
+                      <div class="btn_abs col-md-4 col-lg-2"> 
+                      <a href="#"><button  class="btn btn-primary my-btn">ვ</button></a>
+                    </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="visit_card">
+                  <div class="card" style="width: 100%; margin-bottom: 1em;">
+                      <img src="https://gobatumi.com/file-manager/files/shares/anbani/z.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModalz" alt="...">
+                      <div class="card-body" >
+                         <br>
+                       <h5 class="card-title col-12">ზღვა</h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ზღვა</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">ზ</button></a>
+                     </div>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-4">
+              <div class="visit_card">
+                  <div class="card" style="width: 100%; margin-bottom: 1em;">
+                      <img src="https://gobatumi.com/file-manager/files/shares/anbani/t.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModalt" alt="...">
+                      <div class="card-body" >
+                         <br>
+                       <h5 class="card-title col-12">თაგო</h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #თაგო #ხულო</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">თ</button></a>
+                     </div>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-4">
+              <div class="visit_card">
+                  <div class="card" style="width: 100%; margin-bottom: 1em;">
+                      <img src="https://gobatumi.com/file-manager/files/shares/anbani/i.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModali" alt="...">
+                      <div class="card-body" >
+                         <br>
+                       <h5 class="card-title col-12">იახნი</h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #თაგო #ხულო</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">თ</button></a>
+                     </div>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-4">
+              <div class="visit_card">
+                  <div class="card" style="width: 100%; margin-bottom: 1em;">
+                      <img src="https://gobatumi.com/file-manager/files/shares/anbani/k.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModalk" alt="...">
+                      <div class="card-body" >
+                         <br>
+                       <h5 class="card-title col-12">კვარიათი</h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #კვარიათი</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">კ</button></a>
+                     </div>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-4">
+              <div class="visit_card">
+                  <div class="card" style="width: 100%; margin-bottom: 1em;">
+                      <img src="https://gobatumi.com/file-manager/files/shares/anbani/l.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModall" alt="...">
+                      <div class="card-body" >
+                         <br>
+                       <h5 class="card-title col-12">ლაზური მუზეუმი </h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ლაზურიმუზეუმი</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">ლ</button></a>
+                     </div>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-4">
+              <div class="visit_card">
+                  <div class="card" style="width: 100%; margin-bottom: 1em;">
+                      <img src="https://gobatumi.com/file-manager/files/shares/anbani/m.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModalm" alt="...">
+                      <div class="card-body" >
+                         <br>
+                       <h5 class="card-title col-12">მაჭახელა</h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #მაჭახელა</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">მ</button></a>
+                     </div>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="col-md-4">
+              <div class="visit_card">
+               <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+                <img src="https://gobatumi.com/file-manager/files/shares/anbani/n.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModaln" alt="...">
+                   <div class="card-body" >
+                       <br>
+                       <h5 class="card-title col-12">ნობელები</h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ნობელები</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">ნ</button></a>
+                   </div>
+                   </div>
+                 </div>
+              </div>
+          </div>
+             <div class="col-md-4">
+              <div class="visit_card">
+               <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+                <img src="https://gobatumi.com/file-manager/files/shares/anbani/o.jpg" class="card-img-top"  data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" data-bs-target="#myModalo" alt="...">
+                   <div class="card-body" >
+                       <br>
+                       <h5 class="card-title col-12">ოდა</h5>
+                       <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ოდა</p>
+                       <div class="btn_abs col-md-4 col-lg-2"> 
+                       <a href="#"><button  class="btn btn-primary my-btn">ო</button></a>
+                   </div>
+                   </div>
+                 </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="visit_card">
+             <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+                 <img src="https://gobatumi.com/file-manager/files/shares/anbani/p.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F607679403909349%2F&show_text=false&width=560&t=0" data-bs-target="#myModalp" alt="...">
+                 <div class="card-body" >
+                     <br>
+                   <h5 class="card-title col-12">პეტრა</h5>
+                   <p class="card-text col-md-8 col-lg-10"> #გაიცანიაჭარაანბანით #პეტრა</p>
+                   <div class="btn_abs col-md-4 col-lg-2"> 
+                   <a href="#"><button  class="btn btn-primary my-btn">პ</button></a>
+                 </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="visit_card">
+           <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+               <img src="https://gobatumi.com/file-manager/files/shares/anbani/jj.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalox" alt="...">
+               <div class="card-body" >
+                   <br>
+                 <h5 class="card-title col-12">ჟანგბადი </h5>
+                 <p class="card-text col-md-8 col-lg-10"> #გაიცანიაჭარაანბანით #ჟანგბადი</p>
+                 <div class="btn_abs col-md-4 col-lg-2"> 
+                 <a href="#"><button  class="btn btn-primary my-btn">ჟ</button></a>
+               </div>
+               </div>
+             </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="visit_card">
+         <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+             <img src="https://gobatumi.com/file-manager/files/shares/anbani/r.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalr" alt="...">
+             <div class="card-body" >
+                 <br>
+               <h5 class="card-title col-12">რვაფეხა</h5>
+               <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #რვაფეხა</p>
+               <div class="btn_abs col-md-4 col-lg-2"> 
+               <a href="#"><button  class="btn btn-primary my-btn">რ</button></a>
+             </div>
+             </div>
+           </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+      <div class="visit_card">
+       <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+           <img src="https://gobatumi.com/file-manager/files/shares/anbani/s.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModals" alt="...">
+           <div class="card-body" >
+               <br>
+             <h5 class="card-title col-12">სხალთა</h5>
+             <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #სხალთა #ხულო</p>
+             <div class="btn_abs col-md-4 col-lg-2"> 
+             <a href="#"><button  class="btn btn-primary my-btn">ს</button></a>
+           </div>
+           </div>
+         </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="visit_card">
+     <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+         <img src="https://gobatumi.com/file-manager/files/shares/anbani/tt.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModaltt" alt="...">
+         <div class="card-body" >
+             <br>
+           <h5 class="card-title col-12">ტბიყელი</h5>
+           <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ტბიყელი</p>
+           <div class="btn_abs col-md-4 col-lg-2"> 
+           <a href="#"><button  class="btn btn-primary my-btn">ტ</button></a>
+         </div>
+         </div>
+       </div>
+    </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/u.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalu" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">უჩხო</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #უჩხო #ხულო</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">უ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/f.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalf" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ფრინველებზე დაკვირვება</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ფრინველებზედაკვირვება</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ფ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/q.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalq" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ქობულეთი</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ქობულეთი</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ქ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/gg.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalgg" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ღამის ბათუმი</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ღამისბათუმი</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ღ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/y.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModaly" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ბათუმური ყავა</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ყავაბათუმურად</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ბ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/sh.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalsh" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">შუქურა</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #შუქურა</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">შ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/ch.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalch" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ჩირუხი</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ჩირუხი</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ჩ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/c.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalc" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ციხისძირი</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ციხისძირი</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ც</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/dz.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModaldz" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ძველი ბათუმი</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ძველიბათუმი</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ძ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/w.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalw" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">წვიმა</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #წვიმა</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">წ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/ww.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModalww" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ჭვანა</h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ჭვანა</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ჭ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="visit_card">
+   <div class="card" style="width: 100%;  margin-bottom: 1em; margin-top:1em; ">
+       <img src="https://gobatumi.com/file-manager/files/shares/anbani/jr.jpg" class="card-img-top" data-bs-toggle="modal" data-src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" data-bs-target="#myModaljr" alt="...">
+       <div class="card-body" >
+           <br>
+         <h5 class="card-title col-12">ჯარა / Jara </h5>
+         <p class="card-text col-md-8 col-lg-10">#გაიცანიაჭარაანბანით #ჯარა</p>
+         <div class="btn_abs col-md-4 col-lg-2"> 
+         <a href="#"><button  class="btn btn-primary my-btn">ჭ</button></a>
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+       </div>
+   </div>
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content">
+   
+         
+         <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+           </button>        
+           <!-- 16:9 aspect ratio -->
+   <div class="ratio ratio-16x9">
+    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F607679403909349%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+     
+   </div>     
+   <div class="text-conten mt-1">
+    <div class="text-content-title">ანბანის კოშკი / Alphabet Tower</div>
+    <div class="text-conten-border"></div>
+    <div class="text-conten-center">🧬აჭარაში სტუმრობისას, არ უნდა გამოტოვო უნიკალური დიზაინის მქონე ანბანის კოშკი, რომელსაც დნმ-ის სტრუქტურის ფორმა აქვს და ქართული ანბანის 33 ასოს აერთიანებს. კოშკი ერთ-ერთი საუკეთესო ადგილია ქალაქის, მთებისა და ზღვის ხედების დასათვალიერებლად 🌞 ♥️
+        ანბანის კოშკი,
+        აი, სწორედ აქედან იწყება დაუვიწყარი თავგადასავალი! #გაიცანიაჭარაანბანით #ანბანისკოშკი #ბათუმი
+        📍 Alphabet Tower</div>
+    
+ </div>
+         </div>
+       </div>
+     </div>
+   </div> 
+   <div class="modal fade" id="myModalb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F237838418388760%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten">
+   <div class="text-content-title">ბათუმის ბოტანიკური ბაღი / Batumi Botanical Garden</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🌿 თუკი გსურს დედამიწაზე პატარა, მწვანე სამოთხეში აღმოჩნდე, განსაკუთრებული მრავალფეროვნებით გამორჩეული ბათუმის ბოტანიკური ბაღი უნდა მოინიშნო, აქ ყოველი სტუმრობა ახალი შთაბეჭდილებები და ემოციებია ☘</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div class="modal fade" id="myModalg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F377786620706934%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten">
+   <div class="text-content-title">გონიოს ციხე / Gonio Fortress</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🏰 ისტორიით ხარ დაინტერესებული?! მაშინ რომაელთა ნაკვალევზე უნდა გაიარო, რამდენიმე წუთით ძველ დროში აღმოჩნდე და გონებაში იმდროინდელი კადრები გააცოცხლო. გონიოს ციხეში მოსმენილი და ნანახი ისტორიაში მოგზაურობის შესაძლებლობას მოგცემს 💭 ♥️</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div class="modal fade" id="myModald" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F585421519440859%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten">
+   <div class="text-content-title">დანდალოს ხიდი / Dandalo Bridge</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🏰 🌽 სოფელ დანდალოს თბილი ხალხითა და აჭარული სტუმართმასპინძლობით მოხიბლულს, არ გამოგრჩეს, ბუნებაში ჩაფლული, დანდალოს საუკუნოვანი თაღოვანი ხიდი, რომელიც მდინარე აჭარისწყალზე დგას და ქართული სახიდე-სამშენებლო ხელოვნების უნიკალური ნიმუშია 😍💚</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="modal fade" id="myModale" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2008105636008399%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten">
+   <div class="text-content-title">ევროპის მოედანი / Europe Square</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">✨ ძველი ბათუმის კოპწია ქუჩებში სეირნობისას, უნდა მოინახულოთ ევროპის მოედანიც, რომელიც აუცილებლად მოგხიბლავთ თავისი მრავალფეროვნებით, ირგვლივ განლაგებული საუცხოო შენობებით 🥰♥️</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalv" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F228494952603222%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">ევროპის მოედანი / Europe Square</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">✨ ძველი ბათუმის კოპწია ქუჩებში სეირნობისას, უნდა მოინახულოთ ევროპის მოედანიც, რომელიც აუცილებლად მოგხიბლავთ თავისი მრავალფეროვნებით, ირგვლივ განლაგებული საუცხოო შენობებით 🥰♥️</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalz" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F407307827548507%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">ზღვა / The Sea</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">🌊 ეს არის ის, რაც მგონი ყველას უყვარს. ზღვა, რომელიც ყველა დღე ემოციების ზღვას გაძლევს, ყოველთვის განსხვავებული, მრავალფეროვანი დაისებით, ფერებითა და ხმით. 🌞💓</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalt" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F445370673598998%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">თაგო / Tago</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">🚠 ზღაპრულ თაგოში მოხვედრის მსურველებს სიმაღლის შიშის დაძლევა და აჭარისწყლის ულამაზეს ხეობაზე მოგიწევთ „გადაფრენა“, საბაგირო გზით, 🌿🌳 რომელიც ევროპაში სიდიდით მეორე ადგილზეა, ის გამორჩეულია იმითაც, რომ მას არა აქვს საყრდენი კონსტრუქცია.</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModali" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F240366438157455%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">იახნი / Iakhni</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">და თქვენ დაგიგემოვნებიათ ქობულეთური სუფრის მთავარი ოქრო - იახნი?! ☺️ 🍲 ნიგვზით, ზაფრანით, უცხო სუნელითა და ხმელი ქინძით შეზავებული საქონლის ხორცის კერძი. ეს არის ფერების, არომატებისა და გემოების არაჩვეულებრივი შერწყმა! ♥️</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalk" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F772163320409448%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">კვარიათი / Kvariati</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">🌊 კვარიათის განსაკუთრებული მდებარეობა, ზღვასთან სიახლოვე და გარშემორტყმული, სიმწვანეში ჩაფლული მთები, დასასვენებლად იდეალურ გარემოს ქმნის. 🍀♥️ 🌅 კამკამა, ლურჯი ზღვა, ფერადი ჰორიზონტი… მოინიშნე კვარიათი, აქ ყველაფერია შენი სიმშვიდისთვის.</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F772163320409448%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">ლაზური მუზეუმი / Laz Ethnographic Museum</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">⛵ ძველ ლაზეთში მოგზაურობა გსურს და გინდა, გაიცნო ლაზების წეს-ჩვეულებები, კულტურა, რომელმაც საუკუნეებს გაუძლო?! 🏡❤️ ამისათვის, როცა სარფში მოხვდები, აუცილებლად უნდა ესტუმრო ლაზურ მუზეუმს.</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F598417297972857%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">ლაზური მუზეუმი / Laz Ethnographic Museum</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">🤗 ეს მაჭახელას სახელგანთქმული თოფია, რომლის დამზადების ტექნიკასა და ისტორიას ხეობაშივე გაეცნობი. აქვე, „მაჭახელას თოფის გზა“ მოინიშნე, თუ ჯერ არ გინახავს, ერთ-ერთი საინტერესო მარშრუტი წინ გელის! 🌿❤️</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal center " id="myModaln" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" >
+      <div class="modal-content">
+  
+        
+        <div class="modal-body" >
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F258733556205182%2F&show_text=false&width=560&t=0" width="560" height="314"  scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:none;overflow:hidden" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">ნობელები / Nobel Brothers Museum</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">🤗 არა აქვს მნიშვნელობა, რა პროფესიით ხარ დაინტერესებული, ძმები ნობელების მუზეუმში აუცილებლად იპოვი შენთვის საინტერესო ინფორმაციას. 👌❤️ 📜 აქვე ძველი ბათუმის ეკონომიკური და კულტურული განვითარების ისტორიის შესახებაც გაიგებ ბევრ სიახლეს.</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal center " id="myModalo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" >
+      <div class="modal-content">
+  
+        
+        <div class="modal-body" >
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+                  <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F298843972058593%2F&show_text=false&width=560&t=0" width="560" height="314"  scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:none;overflow:hidden" id=video></iframe>
+            
+          </div>     
+              <div class="text-conten">
+              <div class="text-content-title">ოდა / Oda</div>
+              <div class="text-conten-border"></div>
+              <div class="text-conten-center">🏡 ბუხარი, სითბო, სიმყუდროვე, ბევრი სიყვარული, გულანთებული მასპინძელი... - ეს იდილია დაგხვდებათ სიმწვანეში ჩაფლულ ოდა სახლებში, რომელთაც აჭარაში თითქმის ყველა კუთხეში შეხვდებით 🥰🔥🌿</div>
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="myModalp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F167086345560289%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">პეტრა / Petra</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">თუკი დადებითი ემოციებით დამუხტვა და დროის სასარგებლოდ გატარება გსურს, 🌿🌊
+    🏰 პეტრას ციხეს უნდა ეწვიო,
+    აქ ნანახით აუცილებლად მოიხიბლებით ✨♥️
+    #გაიცანიაჭარაანბანით #პეტრა</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalox" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2064854823662945%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ჟანგბადი / Oxygen</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🌲 რამდენიმე წამით შეჩერდი და წარმოიდგინე, რომ ამ ადგილებში შენ ხარ... 🍀🌱💚
+    არ დაგავიწყდეს, ამ მრავალფეროვნების შეგრძნება შენც შეგიძლია.
+    🌿 აი, აქ სულ სხვა ჟანგბადია! #აჭარა
+    📍 Oxygen</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F4604421846288505%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">რვაფეხა / Octupus</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🌲 🐙 თქვენც ხომ არა გაქვთ რვაფეხასთან გადაღებული ფოტო?
+    💛 ეს არის ადგილი, რომელიც უამრავ მოგონებასა და ემოციას ინახავს,
+    სიჭრელით, მხიარულებითა და ინდივიდუალიზმით გამორჩეული კაფე „ფანტაზია“, იგივე „რვაფეხა“. 🌈🧡</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModals" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F185378660449926%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">სხალთა / Skhalta</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🌿 ხულოში მოხვედრისას, ბუნებასთან ჰარმონიულად შერწყმული სხალთის ეკლესია უნდა მოინახულო,
+    ✨ რთულია, სხალთის ხეობას ეწვიო და არ შეგიყვარდეს აქაურობა. 🌲❤ </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModaltt" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F961546774434827%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ტბიყელი / Tbikeli</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">✨ თუკი დაუვიწყარი ემოციები და თავგადასავალი გინდა, აქ ერთხელ მაინც უნდა მოხვდე, მოინიშნე ტბიყელის ტბა 🏔🌿❤
+    😊 აქვე, იცოდით, რომ ტბაში წითელ ნუსხაში შეყვანილი კავკასიური ტრიტონი ბინადრობს?! </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F3095269314088284%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">უჩხო / Uchkho</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">თუკი თავგადასავლები და ექსტრემალური სპორტი გიზიდავთ, უჩხოს თქვენთვის ბევრი საინტერესო ადგილი აქვს. ❤️
+    🍃 უჩხოში შეგიძლიათ კანიონინგით დაკავდეთ, დალაშქროთ კილომეტრნახევრიანი კანიონი და კასკადოვან ჩანჩქერებზე თოკით დაეშვათ 🏞💦 </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="modal fade" id="myModalf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F2272843739683850%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ფრინველებზე დაკვირვება / Birdwatching</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">აქ ყველაფერია ბუნების მოყვარულთათვის! 🌿❤
+    🦅 იცოდით, რომ აჭარა მსოფლიოში მტაცებელ ფრინველთა მიგრაციის ერთ-ერთ უდიდეს კორიდორად ითვლება?!
+    ✨ წელს ჩვენთან რეკორდიც კი დამყარდა, მილიონზე მეტმა მტაცებელმა ფრინველმა გადაუფრინა რეგიონს, ეს შთამბეჭდავი სანახაობა კი მგონი არ უნდა გამოტოვო. </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="modal fade" id="myModalq" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F410383090815613%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ქობულეთი / Kobuleti</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">ქობულეთი რომ ჯერ კიდევ უამრავ საიდუმლოს ინახავს, ამაზე ჩვენი ფიჭვნარიც მეტყველებს ✨❤
+    🌿 ქობულეთშივე მდებარეობს ისპანის უნიკალური ტორფნარი, რომელიც მსოფლიოში ერთადერთი მფილტრავი სფაგნუმური ჭაობია.
+    და აქვე, თქვენ იცოდით რომ ამ პატარა ქალაქში საქართველოში ყველაზე გრძელი ქუჩა მდებარეობს?! </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalgg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F645957643094424%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ღამის ბათუმი / Night Batumi</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">ღამით ბათუმს სულ სხვა ხიბლი აქვს! ✨❤️
+    🌟 თუკი ჯერ არ გიცდია, აუცილებლად უნდა გაისეირნო ბათუმის ლამპიონებით განათებულ ქუჩებში, რომლებიც ღამით განსაკუთრებით მომაჯადოებელი და მყუდრო ხდება. </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div class="modal fade" id="myModaly" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F321703229714131%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ბათუმური ყავა / Batumian Coffee</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">☕ ბათუმი, სანაპირო, მზეზე მოელვარე ტალღები, ქვიშაზე მოდუღებული არომატული ყავა...
+    ბათუმელების, და არამხოლოდ ბათუმელების, ერთ-ერთი საყვარელი რიტუალია 🌞♥️
+    აქ მომზადებულ ყავას სხვა სურნელი და გემო აქვს! ✨ </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="modal fade" id="myModalsh" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F934792114120466%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">შუქურა / Lighthouse</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">✨ იცოდით, რომ ბათუმის შუქურას საუკუნოვანი ისტორია აქვს?! პირველი შუქურა ჩვენთან ჯერ კიდევ 1863 წელს აუგიათ 🌊❤
+    😊 ამას გარდა, მას უნიკალური მდებარეობაც გააჩნია, გრძედისა და განედის 41-გრადუსიანი პარალელები ერთმანეთს ემთხვევა. </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="modal fade" id="myModalch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F593100045107979%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ჩირუხი / Chirukhi</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🏔️ თუკი გსურს ღრუბლებზე მაღალა, მზესთან ახლოს ამოყო თავი, ჩირუხის მთებს უნდა ეწვიო 🌿♥️
+    ⛺ სიმშვიდე, თვალწარმტაცი ბუნება, სუფთა ჰაერი... აქ შენთვის ყველაფერია! </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div class="modal fade" id="myModalc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F704784167592962%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ციხისძირი / Tsikhisdziri</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🌿 სიმწვანით შემოსილი და სიკამკამით გამორჩეული პლაჟები, საუცხოო ხედები, დაუვიწყარი ემოციები… 🌞🌊
+    ციხისძირში მოხვედრისთანავე ეზიარები ამ ყოველივეს ♥️ </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModaldz" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F286030130138319%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ძველი ბათუმი / Old Batumi</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🤗 ვინმეს რომ ჰკითხო, რომელია მისი საყვარელი ადგილი ბათუმში, დიდი ალბათობით, ძველი ბათუმის რომელიმე კუთხეს დაგისახელებს 😊♥️
+    ✨ თუკი ერთხელ ჩაისეირნებ პატარა, ფერად ქუჩებში, დარწმუნებული ვარ, შენც იპოვი შენს წერტილს, რომელიც ძალიან შეგიყვარდება 🥰 </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalw" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F3112718098985932%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">წვიმა / Rain</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">☔ ფოთლებზე მოწკაპუნე წვიმის წვეთების ხმა, ნისლში გახვეული ადგილები, მყუდრო და მისტიკური გარემო, წვიმა არის ბედნიერება! 💦🌿
+    და უკვე იცი, რომ ბათუმი წვიმისას კიდევ უფრო განსხვავებულად ლამაზია?! ♥️ </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModalww" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F627434871740891%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ჭვანა / Chvana</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">თუკი ბუნება გიყვარს, ჭვანას ხეობა პირველივე ნახვისთანავე მოგხიბლავს! 🍀
+    🌿 არაჩვეულებრივი პეიზაჟებისა და თბილი გარემოს გარდა, ჭვანას ხეობაში დაგხვდებათ ჯადოსნური შესახედაობის ხაბელაშვილების უნიკალური ხის თაღოვანი ხიდი, რომელიც სამ საუკუნეს ითვლის 🌳❤️ </div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModaljr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="ratio ratio-16x9">
+   <iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fvisitbatumi%2Fvideos%2F223927179924616%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" id=video></iframe>
+    
+  </div>     
+  <div class="text-conten mt-1">
+   <div class="text-content-title">ჯარა / Jara</div>
+   <div class="text-conten-border"></div>
+   <div class="text-conten-center">🍯 ჯარა - ტრადიციული ქართული სკაა, მასში თაფლის წარმოების საუკუნოვან ტრადიციას არამატერიალური კულტურული მემკვიდრეობის ძეგლის სტატუსი აქვს ✨❤</div>
+   
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- My script -->
+    <script>
+      $(document).ready(function() {
+
+// Gets the video src from the data-src on each button
+
+var $videoSrc;  
+$('.video-btn').click(function() {
+    $videoSrc = $(this).data( "src" );
+});
+console.log($videoSrc);
+
+  
+  
+// when the modal is opened autoplay it  
+$('#myModal').on('shown.bs.modal', function (e) {
+    
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+
+})
+  
+
+
+// stop playing the youtube video when I close the modal
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#video").attr('src',$videoSrc); 
+}) 
+
+    
+
+
+  
+// document ready  
+
+});
+
+
+$('#myModal').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModal iframe').attr("src", $("#myModal iframe").attr("src"));
+  });
+  $('#myModalb').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalb iframe').attr("src", $("#myModalb iframe").attr("src"));
+  });
+  $('#myModalg').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalg iframe').attr("src", $("#myModalg iframe").attr("src"));
+  });
+  $('#myModald').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModald iframe').attr("src", $("#myModald iframe").attr("src"));
+  });
+  $('#myModale').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModale iframe').attr("src", $("#myModale iframe").attr("src"));
+  });
+  $('#myModalv').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalv iframe').attr("src", $("#myModalv iframe").attr("src"));
+  });
+  $('#myModalz').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalz iframe').attr("src", $("#myModalz iframe").attr("src"));
+  });
+  $('#myModalt').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalt iframe').attr("src", $("#myModalt iframe").attr("src"));
+  });
+  $('#myModali').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModali iframe').attr("src", $("#myModali iframe").attr("src"));
+  });
+  $('#myModalk').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalk iframe').attr("src", $("#myModalk iframe").attr("src"));
+  });
+  $('#myModall').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModall iframe').attr("src", $("#myModall iframe").attr("src"));
+  });
+  $('#myModalm').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalm iframe').attr("src", $("#myModalm iframe").attr("src"));
+  });
+  $('#myModaln').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModaln iframe').attr("src", $("#myModaln iframe").attr("src"));
+  });
+  $('#myModalp').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalp iframe').attr("src", $("#myModalp iframe").attr("src"));
+  });
+  $('#myModalox').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalox iframe').attr("src", $("#myModalox iframe").attr("src"));
+  });
+  $('#myModalor').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalor iframe').attr("src", $("#myModalor iframe").attr("src"));
+  });
+  $('#myModalos').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalos iframe').attr("src", $("#myModalos iframe").attr("src"));
+  });
+  $('#myModaltt').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModaltt iframe').attr("src", $("#myModaltt iframe").attr("src"));
+  });
+  $('#myModalu').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalu iframe').attr("src", $("#myModalu iframe").attr("src"));
+  });
+  $('#myModalf').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalf iframe').attr("src", $("#myModalf iframe").attr("src"));
+  });
+  $('#myModalq').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalq iframe').attr("src", $("#myModalq iframe").attr("src"));
+  });
+  $('#myModalgg').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalgg iframe').attr("src", $("#myModalgg iframe").attr("src"));
+  });
+  $('#myModaly').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModaly iframe').attr("src", $("#myModay iframe").attr("src"));
+  });
+  $('#myModalsh').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalsh iframe').attr("src", $("#myModash iframe").attr("src"));
+  });
+  $('#myModalch').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalch iframe').attr("src", $("#myModach iframe").attr("src"));
+  });
+  $('#myModalc').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalc iframe').attr("src", $("#myModalc iframe").attr("src"));
+  });
+  $('#myModaldz').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModaldz iframe').attr("src", $("#myModaldz iframe").attr("src"));
+  });
+  $('#myModalw').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalw iframe').attr("src", $("#myModalw iframe").attr("src"));
+  });
+  $('#myModalww').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModalww iframe').attr("src", $("#myModalww iframe").attr("src"));
+  });
+  $('#myModaljr').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#myModaljr iframe').attr("src", $("#myModaljr iframe").attr("src"));
+  });
+    </script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
